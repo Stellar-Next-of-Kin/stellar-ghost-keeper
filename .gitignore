@@ -1,0 +1,57 @@
+# Rust
+/target/
+Cargo.lock
+*.rlib
+*.so
+*.dylib
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.yarn/cache
+.yarn/install-state.gz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.env.local
+.env.*.local
+
+# Build
+dist/
+build/
+out/
+
+# Environment
+.env
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Temporary
+tmp/
+temp/
+*.tmp
